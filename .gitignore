@@ -1,1 +1,34 @@
+# Build and runtime
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# User-specific settings
+.vscode/
+.vs/
+*.user
+*.suo
+
+# .NET Core & Dependencies
+*.db
+*.lock.json
+*.cache
+.project.assets.json
+.DS_Store
+
+# Solution-related files
+**/.vs/
+**/TestResults/
+**/logs/
+
+# ASP.NET Secrets
+appsettings.Development.json
+
+# Blazor & WebAssembly
+wwwroot/dist/
+
+# Notes
 Notes.md
